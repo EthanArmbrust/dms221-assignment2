@@ -2,6 +2,10 @@
   font-family: ChineseRocks;
   src: url("../fonts/chinese rocks rg.ttf");
 }
+@font-face {
+  font-family: Hapna;
+  src: url("../fonts/Hapna_Slab_Serif_Bold.ttf");
+}
 
 body {
   font-size: 90%;
@@ -45,6 +49,8 @@ li {
 }
 
 .header {
+  top: 0px;
+  left: 0px;
   width: 100%;
   background-image: url("../img/arthur_micah_downhill.jpg");
   background-size: 100%;
@@ -64,6 +70,7 @@ h1 {
 
 h2,
 h3 {
+  font-size: 250%;
   font-family: ChineseRocks;
 }
 
@@ -77,6 +84,7 @@ h3 {
   color: #eeeeee;
 }
 p {
-  font-family: Arial;
+  font-size: 125%;
+  font-family: Hapna Arial;
   text-align: left;
 }
